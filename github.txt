@@ -13,3 +13,146 @@ git push -u origin main
 git remote add origin https://github.com/Gauravs698/test-jan.git
 git branch -M main
 git push -u origin main
+
+
+
+GAURAV SRIVASTAVA@LAPTOP-7VVE746I MINGW64 ~/Desktop
+$ javascript % git init
+bash: javascript: command not found
+
+GAURAV SRIVASTAVA@LAPTOP-7VVE746I MINGW64 ~/Desktop
+$ ls
+ Book1.xlsm                               'READING SKILLS.txt'
+'COMMUNICATION CLASS.txt'                 'Windows Compatibility Report.htm'
+ CONTASUS.txt                             'attendace mail format.txt'
+'Gaurav BIODATA.docx'                     'bb details.txt'
+ MOVIE/                                    crud.html
+'New Text Document.txt'                    debug.log
+ POC/                                      desktop.ini
+'Proposal of Employee Augmentation.docx'
+
+GAURAV SRIVASTAVA@LAPTOP-7VVE746I MINGW64 ~/Desktop
+$ cd "C:\Users\GAURAV SRIVASTAVA\Desktop\POC\javascript"
+
+GAURAV SRIVASTAVA@LAPTOP-7VVE746I MINGW64 ~/Desktop/POC/javascript
+$ github
+bash: github: command not found
+
+GAURAV SRIVASTAVA@LAPTOP-7VVE746I MINGW64 ~/Desktop/POC/javascript
+$ crud.js
+bash: crud.js: command not found
+
+GAURAV SRIVASTAVA@LAPTOP-7VVE746I MINGW64 ~/Desktop/POC/javascript
+$ ls
+crud.js  github.txt
+
+GAURAV SRIVASTAVA@LAPTOP-7VVE746I MINGW64 ~/Desktop/POC/javascript
+$ git init
+Initialized empty Git repository in C:/Users/GAURAV SRIVASTAVA/Desktop/POC/javascript/.git/
+
+GAURAV SRIVASTAVA@LAPTOP-7VVE746I MINGW64 ~/Desktop/POC/javascript (master)
+$ git remote add origin https://github.com/Gauravs698/test-jan.git
+
+GAURAV SRIVASTAVA@LAPTOP-7VVE746I MINGW64 ~/Desktop/POC/javascript (master)
+$ git remote -v
+origin  https://github.com/Gauravs698/test-jan.git (fetch)
+origin  https://github.com/Gauravs698/test-jan.git (push)
+
+GAURAV SRIVASTAVA@LAPTOP-7VVE746I MINGW64 ~/Desktop/POC/javascript (master)
+$ git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+
+GAURAV SRIVASTAVA@LAPTOP-7VVE746I MINGW64 ~/Desktop/POC/javascript (master)
+$ git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Turn this message off by running
+hint: "git config advice.addEmptyPathspec false"
+
+GAURAV SRIVASTAVA@LAPTOP-7VVE746I MINGW64 ~/Desktop/POC/javascript (master)
+$ git commit -m "first commit"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'GAURAV SRIVASTAVA@LAPTOP-7VVE746I.(none)')
+
+GAURAV SRIVASTAVA@LAPTOP-7VVE746I MINGW64 ~/Desktop/POC/javascript (master)
+$ git add .
+
+GAURAV SRIVASTAVA@LAPTOP-7VVE746I MINGW64 ~/Desktop/POC/javascript (master)
+$ git git commit -m "first commit"
+git: 'git' is not a git command. See 'git --help'.
+
+The most similar command is
+        init
+
+GAURAV SRIVASTAVA@LAPTOP-7VVE746I MINGW64 ~/Desktop/POC/javascript (master)
+$ git init
+Reinitialized existing Git repository in C:/Users/GAURAV SRIVASTAVA/Desktop/POC/javascript/.git/
+
+GAURAV SRIVASTAVA@LAPTOP-7VVE746I MINGW64 ~/Desktop/POC/javascript (master)
+$ git add .
+
+GAURAV SRIVASTAVA@LAPTOP-7VVE746I MINGW64 ~/Desktop/POC/javascript (master)
+$ git commit -m "a"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'GAURAV SRIVASTAVA@LAPTOP-7VVE746I.(none)')
+
+GAURAV SRIVASTAVA@LAPTOP-7VVE746I MINGW64 ~/Desktop/POC/javascript (master)
+$ git config --global user.email "gauravs698@gmail.com"
+
+GAURAV SRIVASTAVA@LAPTOP-7VVE746I MINGW64 ~/Desktop/POC/javascript (master)
+$ git commit -m "a"
+[master (root-commit) d9c58ea] a
+ 2 files changed, 57 insertions(+)
+ create mode 100644 crud.js
+ create mode 100644 github.txt
+
+GAURAV SRIVASTAVA@LAPTOP-7VVE746I MINGW64 ~/Desktop/POC/javascript (master)
+$ git push
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+
+GAURAV SRIVASTAVA@LAPTOP-7VVE746I MINGW64 ~/Desktop/POC/javascript (master)
+$ git push --set-upstream origin master
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 906 bytes | 226.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Gauravs698/test-jan.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+GAURAV SRIVASTAVA@LAPTOP-7VVE746I MINGW64 ~/Desktop/POC/javascript (master)
+$ ^C
+
+GAURAV SRIVASTAVA@LAPTOP-7VVE746I MINGW64 ~/Desktop/POC/javascript (master)
+$
